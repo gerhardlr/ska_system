@@ -1,0 +1,3 @@
+[submodule "ska_app"]
+	path = ska_app
+	url = git@github.com:gerhardlr/ska_app.git
