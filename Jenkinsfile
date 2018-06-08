@@ -4,6 +4,7 @@ pipeline {
     stage('error') {
       steps {
         sh 'ls'
+        sh 'cd ska_app/'
       }
     }
   }
