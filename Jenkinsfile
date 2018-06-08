@@ -3,9 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'ls'
-        sh 'cd ska_app/'
-        sh 'ls -LR'
+        sh 'git submodule update --init --recursive --remote'
       }
     }
   }
