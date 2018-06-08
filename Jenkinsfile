@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'git submodule update --init --recursive --remote'
+        sh 'whoami'
       }
     }
   }
