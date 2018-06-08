@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'su jenkins'
         sh 'whoami'
-        sh 'git pull remote origin'
+        sh 'git pull origin master'
       }
     }
   }
