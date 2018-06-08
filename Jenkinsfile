@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'su jenkins'
         sh 'whoami'
-        sh 'git pull origin master'
+        sh 'git submodule update --init --recursive --remote'
       }
     }
   }
