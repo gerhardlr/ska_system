@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh 'ls'
         sh 'cd ska_app/'
-        sh 'LR'
+        sh 'ls -LR'
       }
     }
   }
